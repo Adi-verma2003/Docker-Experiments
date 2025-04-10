@@ -127,7 +127,7 @@ Install Docker:
 sudo yum install -y docker
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Adi-verma2003/Docker-Experiments/main/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/2.jpg" alt="2.jpg" />
+  <img src="https://raw.githubusercontent.com/Adi-verma2003/Docker-Experiments/main/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/2.jpg" alt="Streamlit Screenshot 2" width="600" />
 </p>
 
 Enable and start Docker:
@@ -179,7 +179,7 @@ http://your-ec2-public-ip:8501
 The Streamlit app should now be accessible.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Adi-verma2003/Docker-Experiments/main/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/6.jpg" alt="6.jpg" />
+  <img src="https://raw.githubusercontent.com/Adi-verma2003/Docker-Experiments/main/Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/images/6.jpg" alt="Streamlit Screenshot 6" width="600" />
 </p>
 
 ## 9️⃣ Managing the Docker Container
