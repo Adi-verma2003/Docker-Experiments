@@ -37,7 +37,7 @@ First, start your Minikube cluster:
 minikube start
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20014343.png" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments/blob/main/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20014343.png?raw=true" alt="Screenshot 014343" width="600" />
 </p>
 
 ### 2. Set Up Docker Environment
@@ -67,7 +67,7 @@ docker build -t backend-service .
 kubectl apply -f ../kubernetes/backend-service.yaml
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20014834.png" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments/blob/main/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20014834.png?raw=true" alt="Screenshot 014834" width="600" />
 </p>
 
 #### 3.2 API Gateway
@@ -87,7 +87,7 @@ docker build -t api-gateway .
 kubectl apply -f ../kubernetes/api-gateway.yaml
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20015036.png" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments/blob/main/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20015036.png?raw=true" alt="Screenshot 015036" width="600" />
 </p>
 
 ### 4. Verify Deployment
@@ -99,7 +99,8 @@ kubectl get deployments
 kubectl get services
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020054.png" alt="Screenshot">
+  
+<img src="https://github.com/Adi-verma2003/Docker-Experiments/blob/main/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020054.png?raw=true" alt="Screenshot 020054" width="600" />
 </p>
 
 ### 5. Access the Application
@@ -112,10 +113,10 @@ minikube service api-gateway
 This will open your browser to the API Gateway endpoint, which will display a message from the backend service.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20015902.png" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments/blob/main/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20015902.png?raw=true" alt="Screenshot 015902" width="600" />
 </p>
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020139.png" alt="Screenshot">
+<img src="https://github.com/Adi-verma2003/Docker-Experiments/blob/main/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020139.png?raw=true" alt="Screenshot 020139" width="600" />
 </p>
 
 ### 6. Monitoring and Debugging
@@ -146,7 +147,7 @@ kubectl delete -f kubernetes/backend-service.yaml
 minikube stop
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/06b8cd7b508371feb76430430aad0e4cf80f8ed7/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020704.png" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments/blob/main/Microservices%20Orchestration%20with%20Minikube%20%26%20Kubernetes/images/Screenshot%202025-03-21%20020704.png?raw=true" alt="Screenshot 020704" width="600" />
 </p>
 
 ## Architecture Overview
