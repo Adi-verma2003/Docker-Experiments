@@ -126,7 +126,7 @@ Run the following AWS CLI command to get the latest Ubuntu AMI:
 aws ec2 describe-images --owners 099720109477 --filters "Name=name,Values=ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*" --query "Images | sort_by(@, &CreationDate)[-1].ImageId" --output text
 ```
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/6d5d87e85a40602d2a417ef341625bd7b6d38607/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011116.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments /blob/6d5d87e85a40602d2a417ef341625bd7b6d38607/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011116.png?raw=true" alt="Screenshot">
 </p>
 
 ✅ Update `bakery.pkr.hcl` by replacing the **`source_ami`** with the new AMI ID:
@@ -166,7 +166,7 @@ packer validate bakery.pkr.hcl
 ✅ Expected Output: The configuration is valid.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011135.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments /blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011135.png?raw=true" alt="Screenshot">
 </p>
 
 ### 3.2 Build the Machine Image
@@ -184,10 +184,10 @@ This will:
 - Delete the temporary instance.
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011212.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments /blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011212.png?raw=true" alt="Screenshot">
 </p>
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011235.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments /blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011235.png?raw=true" alt="Screenshot">
 </p>
 
 ## Step 4: Deploy and Test the AMI
@@ -198,7 +198,7 @@ This will:
 3. Find the AMI named: bakery-foundation-python39-timestamp
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011612.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments /blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011612.png?raw=true" alt="Screenshot">
 </p>
 
 ### 4.2 Launch an EC2 Instance with Your AMI  
@@ -213,13 +213,13 @@ This will:
 5. Click **Launch**! 🚀
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011811.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments /blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011811.png?raw=true" alt="Screenshot">
 </p>
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011842.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments /blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011842.png?raw=true" alt="Screenshot">
 </p>
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20012354.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments /blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20012354.png?raw=true" alt="Screenshot">
 </p>
 
 ### 4.3 Connect to the Instance  
@@ -246,7 +246,7 @@ python3.9 --version
 ✅ Expected Output:
 
 <p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/614806e3f3f17ba56c9270b451a777afbcba2451/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20030112.png?raw=true" alt="Screenshot">
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments /blob/614806e3f3f17ba56c9270b451a777afbcba2451/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20030112.png?raw=true" alt="Screenshot">
 </p>
 
 ## Default Ubuntu Python Version
