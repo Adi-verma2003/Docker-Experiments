@@ -3,7 +3,7 @@
 This guide explains how to deploy a microservices architecture using Docker Swarm with an API Gateway and a Backend Service.
 
 <p align="center">
-  <img src="https://github.com/AdityaVerma/Docker-Experiments/raw/main/assets/docker-to-swarm-1.png" alt="Docker to Swarm" width="300" />
+ <img src="https://github.com/Adi-verma2003/Docker-Experiments/raw/main/Microservices%20Architecture%20using%20Docker%20Swarm/assets/docker-to-swarm-1.png" alt="Docker to Swarm" width="300" />
 </p>
 
 
@@ -26,7 +26,7 @@ docker swarm init
 This makes your machine the Swarm Manager.
 
 <p align="center">
-  <img src="https://github.com/AdityaVerma/Docker-Experiments/raw/main/assets/Screenshot 2025-03-19 015611.png" alt="Project Screenshot" />
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments/raw/main/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015611.png" alt="Project Screenshot" width="600" />
 </p>
 
 ## 📁 Project Structure
@@ -145,7 +145,7 @@ networks:
 docker stack deploy -c docker-compose.yml my_microservices
 ```
 <p align="center">
-  <img src="https://github.com/AdityaVerma/Docker-Experiments/raw/main/assets/Screenshot 2025-03-19 015836.png" alt="Project Screenshot 2" />
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments/raw/main/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015836.png" alt="Screenshot 015836" width="600" />
 </p>
 
 ## 📊 Step 6: Verify the Deployment
@@ -153,14 +153,14 @@ docker stack deploy -c docker-compose.yml my_microservices
 docker stack services my_microservices
 ```
 <p align="center">
-  <img src="https://github.com/AdityaVerma/Docker-Experiments/raw/main/assets/Screenshot 2025-03-19 015857.png" alt="Project Screenshot 3" />
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments/raw/main/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015857.png" alt="Screenshot 015857" width="600" />
 </p>
 
 ```sh
 docker ps
 ```
 <p align="center">
-  <img src="https://github.com/AdityaVerma/Docker-Experiments/raw/main/assets/Screenshot 2025-03-19 015912.png" alt="Project Screenshot 4" />
+ <img src="https://github.com/Adi-verma2003/Docker-Experiments/raw/main/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015912.png" alt="Screenshot 015912" width="600" />
 </p>
 
 ## 🌐 Step 7: Access the Microservices
@@ -171,7 +171,7 @@ http://localhost:8080
 You should see: **API Gateway: verma_aditya**
 
 <p align="center">
-  <img src="https://github.com/AdityaVerma/Docker-Experiments/raw/main/assets/Screenshot 2025-04-10 185217.png" alt="Project Screenshot" />
+  <img src="https://github.com/Adi-verma2003/Docker-Experiments/raw/main/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-04-10%20185217.png" alt="Screenshot 185217" width="600" />
 </p>
 
 ## 🔄 Step 8: Scaling the Services
